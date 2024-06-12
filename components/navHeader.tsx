@@ -36,7 +36,7 @@ export default function NavHeader() {
         {siteConfig.navItems.map((item) => (
           <NavbarItem key={item.label}>
             <Link
-              className={clsx({ "text-orange-400": pathName === item.href })}
+              className={clsx({ "text-orange-500": pathName === item.href })}
               color="foreground"
               href={item.href}
             >
